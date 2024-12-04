@@ -1,0 +1,77 @@
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.lock
+*.cache
+*.bak
+*.swp
+*.swo
+*.pid
+*.seed
+*.gz
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build directories
+/dist/
+/build/
+/out/
+/target/
+/bin/
+/obj/
+/.idea/
+/.vscode/
+/.env
+.env.local
+.env.*
+
+# Ignore dependencies
+*.iml
+*.class
+*.dll
+*.so
+*.dylib
+*.exe
+
+# Ignore Python-specific files
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+
+# Ignore Java-specific files
+*.war
+*.ear
+
+# Ignore Maven-specific files
+.mvn/
+target/
+
+# Ignore Gradle-specific files
+.gradle/
+build/
+
+# Ignore JetBrains IDE files
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore macOS-specific files
+*.DS_Store
+
+# Ignore Windows Thumbs
+Thumbs.db
+
+# Ignore Linux-specific temp files
+*.~lock.*
