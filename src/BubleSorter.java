@@ -1,6 +1,6 @@
-public class ArraySorter {
+public class BubleSorter {
 
-    public static int[] bubleSort(int[] array) {
+    public static int[] sort(int[] array) {
         boolean swapped;
         for (int i = 0; i < array.length - 1; i++) {
             swapped = false;
@@ -20,15 +20,4 @@ public class ArraySorter {
         }
         return array;
     }
-
-    public static int[] quickSort(int[] array) {
-
-        return array;
-    }
-
-    public static int[] mergeSort(int[] array) {
-
-        return array;
-    }
-
 }
