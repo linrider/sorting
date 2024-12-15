@@ -1,6 +1,6 @@
 public class BubleSorter {
 
-    public static int[] sort(int[] array) {
+    public static void sort(int[] array) {
         boolean swapped;
         for (int i = 0; i < array.length - 1; i++) {
             swapped = false;
@@ -18,6 +18,5 @@ public class BubleSorter {
                 break;
             }
         }
-        return array;
     }
 }

@@ -6,7 +6,9 @@ public class SortingApp {
         int[] array = arrayGenerator.generate();
         Arrays.stream(array).forEach(el -> System.out.print(el + ", "));
         System.out.println();
-        QuickSorter.sort(array);
+        // QuickSorter.sort(array);
+        // BubleSorter.sort(array);
+        MergeSorter.sort(array);
         Arrays.stream(array).forEach(el -> System.out.print(el + ", "));
         System.out.println();
     }
